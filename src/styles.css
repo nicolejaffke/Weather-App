@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 90px;
+  margin-bottom: 0;
+  display: inline;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+form {
+  display: inline;
+  margin-left: 250px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-right: 90px;
+}
+.today {
+  border: solid;
+  margin: auto;
+  border-width: 5px;
+  border-color: #2c7597;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sunny {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.temp-today {
+  display: inline;
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.high-low {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+hr {
+  color: #2c7597;
+  border: 5px solid;
+}
