@@ -40,6 +40,10 @@ form {
   font-size: 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.units {
+  position: relative;
+  top: -20px;
+}
 .high-low {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
