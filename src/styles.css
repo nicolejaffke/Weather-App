@@ -69,6 +69,14 @@ h3 {
 .high-low {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#humidity {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#wind {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 hr {
   color: #2c7597;
   border: 5px solid;
