@@ -9,15 +9,35 @@ h1 {
   margin-bottom: 0;
   display: inline;
 }
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
-form {
+#search {
   display: inline;
   margin-left: 250px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-right: 90px;
+  border-radius: 20px;
+}
+
+#button-search {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+  background: #2c7597;
+  font-size: 18px;
+  color: white;
+}
+#current-location {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+  background: #2c7597;
+  font-size: 18px;
+  color: white;
 }
 .today {
   border: solid;
@@ -31,12 +51,14 @@ form {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.sunny {
+#sunny {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .temp-today {
   display: inline;
+}
+#temperature {
   font-size: 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -45,10 +67,6 @@ form {
   top: -20px;
 }
 .high-low {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-h2 {
-  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 hr {
