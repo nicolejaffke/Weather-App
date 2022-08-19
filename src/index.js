@@ -30,6 +30,10 @@ function showTemperature(response) {
     response.data.main.temp
   );
   document.querySelector("#sunny").innerHTML = response.data.weather[0].main;
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
 }
 
 function citySearch(event) {
@@ -75,5 +79,7 @@ function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
-let button = document.querySelector("#current-location");
-button.addEventListener("click", getCurrentLocation);
+let locationButton = document.querySelector("#current-location");
+locationButton.addEventListener("click", getCurrentLocation);
+let searchButton = document.querySelector("#button-search");
+button.addEventListener("click", searchLocation);

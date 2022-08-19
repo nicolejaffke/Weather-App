@@ -47,9 +47,18 @@ h3 {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 #sunny {
   font-size: 30px;
@@ -73,7 +82,23 @@ h3 {
   font-size: 12px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+#humidity-name {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#percentage {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 #wind {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#wind-name {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#m-s {
   font-size: 12px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
