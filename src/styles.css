@@ -25,7 +25,7 @@ h3 {
   border-radius: 20px;
 }
 
-#button-search {
+#search-btn {
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 20px;
   background: #2c7597;
@@ -33,6 +33,7 @@ h3 {
   color: white;
 }
 #current-location {
+  display: inline;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 20px;
   background: #2c7597;

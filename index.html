@@ -20,15 +20,26 @@
       <h1 id="city">San Diego</h1>
       <h2>Today</h2>
       <form id="search">
-        <input
-          type="text"
-          value="Search for new City"
-          placeholder="search for new city"
-          id="search-input"
-        />
+        <div class="row">
+          <div class="col-md-4 col-md-offset-6">
+            <input
+              type="search"
+              value="Search for new City"
+              placeholder="search for new city"
+              id="search-input"
+              class="form-control"
+              autocomplete="off"
+            />
+          </div>
+          <div class="col-md-2">
+            <input type="submit" value="Search" id="search-btn" />
+          </div>
+        
       </form>
-      <button id="button-search">Search</button>
+      <div class="col-md-2">
       <button id="current-location">Current Location</button>
+      </div>
+      </div>
       <div class="today">
         <img src="" alt="Clear" id="icon" />
         <div id="sunny">Sunny</div>
