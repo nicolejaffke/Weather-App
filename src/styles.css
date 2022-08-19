@@ -45,11 +45,14 @@ h3 {
   border-width: 5px;
   border-color: #2c7597;
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   padding: 20px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+#icon {
+  max-width: 60px;
 }
 ul {
   margin: 0;
