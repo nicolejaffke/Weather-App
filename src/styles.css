@@ -24,7 +24,9 @@ h3 {
   margin-right: 90px;
   border-radius: 30px;
 }
-
+input:focus::placeholder {
+  color: transparent;
+}
 #search-btn {
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 20px;

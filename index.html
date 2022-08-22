@@ -21,7 +21,7 @@
       <h2>Today</h2>
       <form id="search">
         <div class="row">
-          <div class="col-md-4 col-md-offset-6">
+          <div class="col-8">
             <input
               type="search"
               value="Search for new City"
@@ -31,12 +31,12 @@
               autocomplete="off"
             />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <input type="submit" value="Search" id="search-btn" />
           </div>
         
       </form>
-      <div class="col-md-2">
+      <div class="col-2">
       <button id="current-location">Current Location</button>
       </div>
       </div>
@@ -63,53 +63,13 @@
       <hr />
       <h3>5 Day Forecast</h3>
       <hr />
-      <div class="row">
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <p class="card-text">☀️ 82° 65°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Tuesday</h5>
-              <p class="card-text">🌤 85° 68°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Wednesday</h5>
-              <p class="card-text">☀️ 80° 64°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Thursday</h5>
-              <p class="card-text">🌥 74° 59°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Friday</h5>
-              <p class="card-text">🌧 70° 57°</p>
-            </div>
-          </div>
-        </div>
+      <div>
+      <div class="weather-forecast" id="forecast"></div>
       </div>
-    </div>
     <p></p>
     <div>
       <a href="https://github.com/nicolejaffke/Weather-App">
-        Open Sourced on GitHub
+        Open Sourced by Nicole Jaffke
       </a>
     </div>
     <script src="src/index.js"></script>
